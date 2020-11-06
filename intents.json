@@ -1,0 +1,174 @@
+{"intents": [
+        {"tag": "name",
+         "patterns": ["my name is "],
+         "responses": ["OK "],
+         "context": [""]
+        },
+        {"tag": "myname",
+         "patterns": ["whats my name"],
+         "responses": ["my name is bot "],
+         "context": [""]
+        },
+        {"tag": "introduction",
+         "patterns": ["whats your name","introduce yourself", "who are you", "Are you a male ","are you female","male","female"],
+         "responses": ["i am a bot"," i am a university robot"],
+         "context": [""]
+        },
+        {"tag": "fee",
+         "patterns": ["fee","fees", "computer science fee", "it fee","software engineering fee","se fee","fee structure"],
+         "responses": ["Our total fee is minimum 60000 per semester and maximum 99000, its depend upon your inter marks", "your inter percantage"],
+         "context": [""]
+        },
+        {"tag": "marks",
+         "patterns": ["how many marks required for admission","percantage for bsse", "marks for bscs","cs","se","it", "percentage for bscs admission","admission criteria","percantage required"],
+         "responses": ["55% marks requird for admission in this field", "Minimum 55% marks required"],
+         "context": [""]
+        },
+        {"tag": "scholarship",
+         "patterns": ["percent","%", "raiwand", "scholarship","provide any scholarship","need base scholarship"],
+         "responses": ["yes we provide you a scholarship, we also offer need base scholarships"],
+         "context": [""]
+        },
+        {"tag": "core",
+         "patterns": ["whats the core courses","computing core", "core courses","bscs core,it core"],
+         "responses": ["(1)Programming Fundamentals (2)Object Oriented Programming (3) Data Structures & Algorithms (4) Discrete Structures (5)Operating Systems (6)Database Systems (7)Software Engineering (8)Computer Networks (9)Information Security (10)Final Year Project"],
+         "context": [""]
+        },
+        {"tag": "se",
+         "patterns": ["whats the core courses of bsse","core courses of software engineering","bsse core"],
+         "responses": ["(1) Human Computer Interaction (2) Software Construction & Development  (3) Software Design & Architecture (4)Software Project Management (5)Software Quality Engineering (6)Software Re-Engineering (7)Software Requirements Engineering (8)Web Engineering "],
+         "context": [""]
+        },
+        {"tag": "structure",
+         "patterns": ["whats the pre-requsite course of data structure","data structure pre course ","datastructure pre-req course"],
+         "responses": ["pre-requsite are : (1) fundamental of programming (2) object oriented programming "],
+         "context": [""]
+        },
+        {"tag": "programming",
+         "patterns": ["whats the pre-requsite course of advance programming","pre-req advance programming "],
+         "responses": ["pre-requsite are: (1)fundamental of programming (2) object oriented programming (3) data structure "],
+         "context": [""]
+        },
+        {"tag": "artificial",
+         "patterns": ["whats the pre-requsite course of ai","pre-req artificial intelligence "],
+         "responses": ["pre-requsite is Discrete Structures"],
+         "context": [""]
+        },
+        {"tag": "compiler",
+         "patterns": ["whats the pre-requsite course of cc","pre-req Compiler Construction "],
+         "responses": ["pre-requsite is Theory of Automata"],
+         "context": [""]
+        },
+        {"tag": "enroll",
+         "patterns": ["i want to enroll ","enroll subject","enroll"],
+         "responses": ["make sure you studied the pre-req course of that course "],
+         "context": [""]
+        },
+        {"tag": "road map",
+         "patterns": ["can you give road map","roadmap"],
+         "responses": ["what's your semester "],
+         "context": [""]
+        },
+        {"tag": "semester 1",
+         "patterns": ["semester 1","semester 1 roadmap","sem 1"],
+         "responses": ["Introduction to ICT , Programming Fundamentals, English Composition & Comprehension, Calculus & Analytical Geometry, Applied Physics "],
+         "context": [""]
+        },
+        {"tag": "semester 2",
+         "patterns": ["semester 2","semester 2 roadmap","sem 2"],
+         "responses": ["Digital Logic Design , Object Oriented Programming , Communication & Presentation Skills , Probability & Statistics , University Elective "],
+         "context": [""]
+        },
+        {"tag": "semester 3",
+         "patterns": ["semester 3","semester 3 roadmap","sem 3"],
+         "responses": ["Comp Organization & Assembly Lang., Data Structures & Algorithms , Discrete Structures , Professional Practices , CS Supporting"],
+         "context": [""]
+        },
+        {"tag": "semester 4",
+         "patterns": ["semester 4","semester 4 roadmap","sem 4"],
+         "responses": ["Design & Analysis of Algorithms , Theory of Automata , Database Systems , Linear Algebra ,University Elective – 2 "],
+         "context": [""]
+        },
+        {"tag": "semester 5",
+         "patterns": ["semester 5","semester 5 roadmap","sem 5"],
+         "responses": ["Compiler Construction , CS Supporting , Operating Systems , Software Engineering , CS Supporting"],
+         "context": [""]
+        },
+        {"tag": "semester 6",
+         "patterns": ["semester 6","semester 6 roadmap","sem 6"],
+         "responses": ["Artificial Intelligence , Computer Networks , CS Elective , CS Elective – 2 ,Technical & Business Writing"],
+         "context": [""]
+        },
+        {"tag": "semester 7",
+         "patterns": ["semester 7","semester 7 roadmap","sem 7"],
+         "responses": ["CS Elective , CS Elective , Final Year Project , University Elective , Parallel & Distributed Computing , Pakistan Studies"],
+         "context": [""]
+        },
+        {"tag": "semester 8",
+         "patterns": ["semester 8","semester 8 roadmap","sem 8"],
+         "responses": ["CS Elective , University Elective , Final Year Project – II , Information Security , Islamic Studies/ Ethics"],
+         "context": [""]
+        },
+        {"tag": "isolation",
+         "patterns": ["What is Isolation?","isolation"],
+         "responses": ["Separation of the affected person or suspected of being infected from other healthy people for the duration of the disease infection in appropriate places and health conditions, in order to prevent the transmission of the infection."],
+         "context": [""]
+        },
+        {"tag": "quarantine",
+         "patterns": ["What is Quarantine?","quarantine"],
+         "responses": ["Restricting the activities of healthy people for a period of time as determined by the competent medical authorities"],
+         "context": [""]
+        },
+        {"tag": "surveillance",
+         "patterns": ["What is surveillance?","surveillance"],
+         "responses": ["It is a series of procedures used to determine the source of the disease and any other factors that help spread the disease. It is also used to identify infected persons, the conditions of disease spread and the method of its spread, and requires cooperation from all members of society to provide the information required by the relevant team."],
+         "context": [""]
+        },
+        {"tag": "symptoms",
+         "patterns": ["What the symptoms?","symptoms"],
+         "responses": ["fever,dry cough,tiredness"],
+         "context": [""]
+        },
+        {"tag": "sop",
+         "patterns": ["what sops follows","study in pendamic condition","sops"],
+         "responses": ["wear masks is nesscary avoid grouping. if you feel ill stay home and safe others"],
+         "context": [""]
+        },
+        {"tag": "covid",
+         "patterns": ["What precautions do I need to take at home","precautions covid-19","covid-19","covid"],
+         "responses": ["Stay in a well-ventilated single room","Limit the movement within the house."],
+         "context": [""]
+        },
+       {"tag": "covid-19",
+         "patterns": ["quartine time","moving other","covid-19","covid"],
+         "responses": ["14 days is the quartine time","please stay home and safe others."],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        }
+
+   ]
+}
